@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3424CB0A1F1D671900FA3686 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3424CB091F1D671400FA3686 /* earth.jpg */; };
+		3424CB0C1F1D6C1100FA3686 /* rusted-iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 3424CB0B1F1D6BD000FA3686 /* rusted-iron.png */; };
+		3424CB0E1F1D734900FA3686 /* burgers.dae in Resources */ = {isa = PBXBuildFile; fileRef = 3424CB0D1F1D734900FA3686 /* burgers.dae */; };
 		343319251F1D3A0A00786DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343319241F1D3A0A00786DE9 /* AppDelegate.swift */; };
 		343319271F1D3A0A00786DE9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 343319261F1D3A0A00786DE9 /* art.scnassets */; };
 		343319291F1D3A0A00786DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343319281F1D3A0A00786DE9 /* ViewController.swift */; };
 		3433192C1F1D3A0A00786DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3433192A1F1D3A0A00786DE9 /* Main.storyboard */; };
 		3433192E1F1D3A0A00786DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3433192D1F1D3A0A00786DE9 /* Assets.xcassets */; };
 		343319311F1D3A0A00786DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3433192F1F1D3A0A00786DE9 /* LaunchScreen.storyboard */; };
+		34C49F141F1E7E9C005EE275 /* tron_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C49F131F1E7E99005EE275 /* tron_grid.png */; };
+		34C49F161F1E7EAA005EE275 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C49F151F1E7EAA005EE275 /* Plane.swift */; };
+		34CECCAC1F1EE1D00062DA6E /* model.obj in Resources */ = {isa = PBXBuildFile; fileRef = 34CECCAB1F1EE1D00062DA6E /* model.obj */; };
+		34CECCAE1F1EE1D40062DA6E /* materials.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 34CECCAD1F1EE1D40062DA6E /* materials.mtl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3424CB091F1D671400FA3686 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		3424CB0B1F1D6BD000FA3686 /* rusted-iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rusted-iron.png"; sourceTree = "<group>"; };
+		3424CB0D1F1D734900FA3686 /* burgers.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = burgers.dae; path = ../../burgers.dae; sourceTree = "<group>"; };
 		343319211F1D3A0A00786DE9 /* HoustoniPhoneMeetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustoniPhoneMeetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343319241F1D3A0A00786DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		343319261F1D3A0A00786DE9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		3433192D1F1D3A0A00786DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343319301F1D3A0A00786DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		343319321F1D3A0A00786DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C49F131F1E7E99005EE275 /* tron_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tron_grid.png; sourceTree = "<group>"; };
+		34C49F151F1E7EAA005EE275 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		34CECCAB1F1EE1D00062DA6E /* model.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.obj; sourceTree = "<group>"; };
+		34CECCAD1F1EE1D40062DA6E /* materials.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = materials.mtl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		343319231F1D3A0A00786DE9 /* HoustoniPhoneMeetup */ = {
 			isa = PBXGroup;
 			children = (
+				34C49F131F1E7E99005EE275 /* tron_grid.png */,
+				3424CB0B1F1D6BD000FA3686 /* rusted-iron.png */,
+				3424CB091F1D671400FA3686 /* earth.jpg */,
 				343319241F1D3A0A00786DE9 /* AppDelegate.swift */,
 				343319261F1D3A0A00786DE9 /* art.scnassets */,
 				343319281F1D3A0A00786DE9 /* ViewController.swift */,
+				3424CB0D1F1D734900FA3686 /* burgers.dae */,
+				34CECCAD1F1EE1D40062DA6E /* materials.mtl */,
 				3433192A1F1D3A0A00786DE9 /* Main.storyboard */,
+				34CECCAB1F1EE1D00062DA6E /* model.obj */,
 				3433192D1F1D3A0A00786DE9 /* Assets.xcassets */,
 				3433192F1F1D3A0A00786DE9 /* LaunchScreen.storyboard */,
 				343319321F1D3A0A00786DE9 /* Info.plist */,
+				34C49F151F1E7EAA005EE275 /* Plane.swift */,
 			);
 			path = HoustoniPhoneMeetup;
 			sourceTree = "<group>";
@@ -125,7 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CECCAE1F1EE1D40062DA6E /* materials.mtl in Resources */,
+				34C49F141F1E7E9C005EE275 /* tron_grid.png in Resources */,
 				343319271F1D3A0A00786DE9 /* art.scnassets in Resources */,
+				34CECCAC1F1EE1D00062DA6E /* model.obj in Resources */,
+				3424CB0A1F1D671900FA3686 /* earth.jpg in Resources */,
+				3424CB0E1F1D734900FA3686 /* burgers.dae in Resources */,
+				3424CB0C1F1D6C1100FA3686 /* rusted-iron.png in Resources */,
 				343319311F1D3A0A00786DE9 /* LaunchScreen.storyboard in Resources */,
 				3433192E1F1D3A0A00786DE9 /* Assets.xcassets in Resources */,
 				3433192C1F1D3A0A00786DE9 /* Main.storyboard in Resources */,
@@ -140,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				343319291F1D3A0A00786DE9 /* ViewController.swift in Sources */,
+				34C49F161F1E7EAA005EE275 /* Plane.swift in Sources */,
 				343319251F1D3A0A00786DE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +348,7 @@
 				343319371F1D3A0A00786DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
